@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		5B99E9D9085D48E8732C0318 /* Pods_Langgan_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF8417C8D4A57A680E48DD0 /* Pods_Langgan_ios.framework */; };
 		BB05706E221058C700F73DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05706D221058C700F73DB6 /* AppDelegate.swift */; };
-		BB057070221058C700F73DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05706F221058C700F73DB6 /* ViewController.swift */; };
 		BB057073221058C700F73DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB057071221058C700F73DB6 /* Main.storyboard */; };
 		BB057075221058C800F73DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB057074221058C800F73DB6 /* Assets.xcassets */; };
 		BB057078221058C800F73DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB057076221058C800F73DB6 /* LaunchScreen.storyboard */; };
 		BB05708522105CD600F73DB6 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05708422105CD600F73DB6 /* DataAccess.swift */; };
 		BB057087221060FE00F73DB6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB057086221060FE00F73DB6 /* LoginViewController.swift */; };
+		BB0570892210783200F73DB6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0570882210783200F73DB6 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +23,13 @@
 		46E4BD0A6A568AF8769CE5EB /* Pods-Langgan-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Langgan-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Langgan-ios/Pods-Langgan-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		BB05706A221058C700F73DB6 /* Langgan-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Langgan-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB05706D221058C700F73DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB05706F221058C700F73DB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB057072221058C700F73DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB057074221058C800F73DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB057077221058C800F73DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB057079221058C800F73DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB05708422105CD600F73DB6 /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
 		BB057086221060FE00F73DB6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB0570882210783200F73DB6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 		BB05708022105A8900F73DB6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BB05706F221058C700F73DB6 /* ViewController.swift */,
 				BB057086221060FE00F73DB6 /* LoginViewController.swift */,
+				BB0570882210783200F73DB6 /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -251,9 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB057087221060FE00F73DB6 /* LoginViewController.swift in Sources */,
-				BB057070221058C700F73DB6 /* ViewController.swift in Sources */,
 				BB05708522105CD600F73DB6 /* DataAccess.swift in Sources */,
 				BB05706E221058C700F73DB6 /* AppDelegate.swift in Sources */,
+				BB0570892210783200F73DB6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
