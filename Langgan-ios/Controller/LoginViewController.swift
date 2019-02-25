@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  Langgan-ios
 //
-//  Created by pramesthi on 10/02/19.
+//  Created by Mirza on 10/02/19.
 //  Copyright © 2019 Olsera. All rights reserved.
 //
 

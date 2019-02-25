@@ -9,5 +9,6 @@ target 'Langgan-ios' do
   pod 'Alamofire'
   pod 'SwiftyJSON', '~> 4.0'
   pod 'KVNProgress'
+  pod 'MaterialComponents/BottomNavigation'
 
 end

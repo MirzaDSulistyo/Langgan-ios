@@ -94,6 +94,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Aks-yL-9eC"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="Home" id="Gx3-Y8-chK"/>
+                        <barButtonItem title="Favorite" id="kss-we-5dU"/>
+                        <barButtonItem title="Subs" width="69" id="IeK-2D-Cb0"/>
+                        <barButtonItem title="Inbox" width="83" id="U6f-9t-IPP"/>
+                        <barButtonItem title="Profile" id="k0t-4o-5qw"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="text" destination="YXi-4l-BPH" id="ES9-gW-xfw"/>
                     </connections>
