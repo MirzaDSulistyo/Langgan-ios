@@ -15,8 +15,8 @@ public class DataAccess {
         return defaults.object(forKey: "user") as? NSDictionary
     }
     
-    class func IsLoggedIn()-> Bool{
-        if (GetUser() != nil)
+    class func IsNotLoggedIn()-> Bool{
+        if (GetUser() == nil)
         {
             return true
         }

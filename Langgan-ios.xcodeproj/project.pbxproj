@@ -15,6 +15,7 @@
 		BB05708522105CD600F73DB6 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05708422105CD600F73DB6 /* DataAccess.swift */; };
 		BB057087221060FE00F73DB6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB057086221060FE00F73DB6 /* LoginViewController.swift */; };
 		BB0570892210783200F73DB6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0570882210783200F73DB6 /* MainViewController.swift */; };
+		BBF5E4782225953400A06CCE /* BottomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5E4772225953400A06CCE /* BottomNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BB05708422105CD600F73DB6 /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
 		BB057086221060FE00F73DB6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BB0570882210783200F73DB6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BBF5E4772225953400A06CCE /* BottomNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				BB057086221060FE00F73DB6 /* LoginViewController.swift */,
 				BB0570882210783200F73DB6 /* MainViewController.swift */,
+				BBF5E4772225953400A06CCE /* BottomNavigationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF5E4782225953400A06CCE /* BottomNavigationViewController.swift in Sources */,
 				BB057087221060FE00F73DB6 /* LoginViewController.swift in Sources */,
 				BB05708522105CD600F73DB6 /* DataAccess.swift in Sources */,
 				BB05706E221058C700F73DB6 /* AppDelegate.swift in Sources */,

@@ -13,19 +13,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    let loginViewControllerStoryboardId = "LoginViewControllerStoryboardId"
-    let mainViewControllerStoryboardId = "MainViewControllerStoryboardId"
-    
     let defaults = UserDefaults.standard
-    var vc: UIViewController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        if (DataAccess.IsLoggedIn())
-        {
-            goToMain()
-        }
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        //window?.rootViewController = UINavigationController(rootViewController: MainViewController())
+        
+        window?.rootViewController = BottomNavigationViewController()
         
         return true
     }
@@ -51,14 +49,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-    
-    func goToMain() {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let main = storyboard.instantiateViewController(withIdentifier: "MainViewControllerStoryboardId") as UIViewController
-        
-        self.window?.rootViewController = main
-    }
-
 
 }
 
