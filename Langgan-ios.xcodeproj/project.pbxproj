@@ -15,6 +15,14 @@
 		BB05708522105CD600F73DB6 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05708422105CD600F73DB6 /* DataAccess.swift */; };
 		BB057087221060FE00F73DB6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB057086221060FE00F73DB6 /* LoginViewController.swift */; };
 		BB0570892210783200F73DB6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0570882210783200F73DB6 /* MainViewController.swift */; };
+		BB9762202226BD2500DF9C16 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB97621F2226BD2500DF9C16 /* FavoriteViewController.swift */; };
+		BB9762222226BE1100DF9C16 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9762212226BE1100DF9C16 /* PlanViewController.swift */; };
+		BB9762242226BE5700DF9C16 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9762232226BE5700DF9C16 /* InboxViewController.swift */; };
+		BB9762262226C24700DF9C16 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9762252226C24700DF9C16 /* ProfileViewController.swift */; };
+		BB9FE405222808240084BB30 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FE404222808240084BB30 /* Auth.swift */; };
+		BB9FE407222808320084BB30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FE406222808320084BB30 /* User.swift */; };
+		BB9FE409222826410084BB30 /* Vars.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FE408222826410084BB30 /* Vars.swift */; };
+		BB9FE40B22282D8F0084BB30 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FE40A22282D8F0084BB30 /* Product.swift */; };
 		BBF5E4782225953400A06CCE /* BottomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF5E4772225953400A06CCE /* BottomNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +39,14 @@
 		BB05708422105CD600F73DB6 /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
 		BB057086221060FE00F73DB6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BB0570882210783200F73DB6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BB97621F2226BD2500DF9C16 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		BB9762212226BE1100DF9C16 /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
+		BB9762232226BE5700DF9C16 /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		BB9762252226C24700DF9C16 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BB9FE404222808240084BB30 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		BB9FE406222808320084BB30 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BB9FE408222826410084BB30 /* Vars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vars.swift; sourceTree = "<group>"; };
+		BB9FE40A22282D8F0084BB30 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		BBF5E4772225953400A06CCE /* BottomNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +119,10 @@
 				BB057086221060FE00F73DB6 /* LoginViewController.swift */,
 				BB0570882210783200F73DB6 /* MainViewController.swift */,
 				BBF5E4772225953400A06CCE /* BottomNavigationViewController.swift */,
+				BB97621F2226BD2500DF9C16 /* FavoriteViewController.swift */,
+				BB9762212226BE1100DF9C16 /* PlanViewController.swift */,
+				BB9762232226BE5700DF9C16 /* InboxViewController.swift */,
+				BB9762252226C24700DF9C16 /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -110,6 +130,9 @@
 		BB05708122105AA400F73DB6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BB9FE404222808240084BB30 /* Auth.swift */,
+				BB9FE406222808320084BB30 /* User.swift */,
+				BB9FE40A22282D8F0084BB30 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -125,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				BB05708422105CD600F73DB6 /* DataAccess.swift */,
+				BB9FE408222826410084BB30 /* Vars.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -159,7 +183,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = Olsera;
+				ORGANIZATIONNAME = Mirza;
 				TargetAttributes = {
 					BB057069221058C700F73DB6 = {
 						CreatedOnToolsVersion = 10.1;
@@ -260,8 +284,16 @@
 				BBF5E4782225953400A06CCE /* BottomNavigationViewController.swift in Sources */,
 				BB057087221060FE00F73DB6 /* LoginViewController.swift in Sources */,
 				BB05708522105CD600F73DB6 /* DataAccess.swift in Sources */,
+				BB9762242226BE5700DF9C16 /* InboxViewController.swift in Sources */,
+				BB9762222226BE1100DF9C16 /* PlanViewController.swift in Sources */,
+				BB9FE405222808240084BB30 /* Auth.swift in Sources */,
 				BB05706E221058C700F73DB6 /* AppDelegate.swift in Sources */,
+				BB9762262226C24700DF9C16 /* ProfileViewController.swift in Sources */,
+				BB9762202226BD2500DF9C16 /* FavoriteViewController.swift in Sources */,
+				BB9FE409222826410084BB30 /* Vars.swift in Sources */,
 				BB0570892210783200F73DB6 /* MainViewController.swift in Sources */,
+				BB9FE407222808320084BB30 /* User.swift in Sources */,
+				BB9FE40B22282D8F0084BB30 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

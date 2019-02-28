@@ -3,7 +3,7 @@
 //  Langgan-ios
 //
 //  Created by Mirza on 10/02/19.
-//  Copyright © 2019 Olsera. All rights reserved.
+//  Copyright © 2019 Mirza. All rights reserved.
 //
 
 import UIKit
@@ -140,8 +140,26 @@ class LoginViewController: UIViewController {
                     {
                         let token = responseValue["token"] as! String
                         print("token : \(token)")
+                        let auth = Auth()
+                        auth.auth = responseValue["auth"] as? Bool
+                        auth.expiresIn = responseValue["expiresIn"] as? Int
+                        auth.token = responseValue["token"] as? String
+                        
+                        print("auth \(String(describing: auth.auth)) \(String(describing: auth.expiresIn)) \(String(describing: auth.token))")
+                        
+                        let data = responseValue["data"] as! NSDictionary
+                        let user = User()
+                        user._id = data["_id"] as? String
+                        user.email = data["email"] as? String
+                        user.first_name = data["first_name"] as? String
+                        user.last_name = data["last_name"] as? String
+                        user.updated_at = data["updated_at"] as? String
+                        
+                        print("user \(String(describing: user._id)) \(String(describing: user.email)) \(String(describing: user.first_name)) \(String(describing: user.last_name))")
                         
                         self.defaults.set(responseValue["data"] as? NSDictionary, forKey: "user")
+                        self.defaults.set(responseValue, forKey: "auth")
+                        self.defaults.set(auth.token, forKey: "token")
                         
                         self.dismiss(animated: true, completion: nil)
                     }
