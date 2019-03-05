@@ -12,6 +12,8 @@ class PlanViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.title = "Plan"
     }
     
 }

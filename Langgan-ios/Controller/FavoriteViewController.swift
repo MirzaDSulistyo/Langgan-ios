@@ -12,6 +12,8 @@ class FavoriteViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.title = "Favorite"
     }
     
 }

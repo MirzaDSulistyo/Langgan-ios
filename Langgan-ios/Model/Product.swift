@@ -12,6 +12,8 @@ class Product: NSObject {
     var _id: String?
     var store_id: String?
     var name: String?
+    var descriptions: String?
+    var photo: String?
     var brand: String?
     var barcode: String?
     var sku: String?

@@ -11,5 +11,7 @@ import UIKit
 class InboxViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.title = "Inbox"
     }
 }

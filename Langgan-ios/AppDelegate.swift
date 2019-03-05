@@ -21,9 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        //window?.rootViewController = UINavigationController(rootViewController: MainViewController())
-        
         window?.rootViewController = BottomNavigationViewController()
+        
+        UITabBar.appearance().barTintColor = UIColor.white
         
         return true
     }
